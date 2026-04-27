@@ -1,0 +1,30 @@
+{
+  "_comment": "Placeholder results. Update manually until the results scraper is added in Phase 2.",
+  "form": ["W", "W", "D", "L", "W"],
+  "recent": [
+    {
+      "date": "2026-04-26",
+      "home_away": "home",
+      "opponent": "Old Southall",
+      "us_score": 2,
+      "them_score": 1,
+      "competition": "League"
+    },
+    {
+      "date": "2026-04-19",
+      "home_away": "away",
+      "opponent": "Jugg Boyz",
+      "us_score": 3,
+      "them_score": 1,
+      "competition": "League"
+    },
+    {
+      "date": "2026-04-12",
+      "home_away": "home",
+      "opponent": "London Samurai Rovers",
+      "us_score": 1,
+      "them_score": 1,
+      "competition": "League"
+    }
+  ]
+}

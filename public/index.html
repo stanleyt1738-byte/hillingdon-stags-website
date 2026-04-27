@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hillingdon Stags FC — Sunday League Football</title>
+  <meta name="description" content="Official site of Hillingdon Stags FC. Fixtures, results, and league table for the Middlesex County FL (Sundays) Division Four North." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="/" class="brand" style="text-decoration:none">
+      <div class="badge" title="Hillingdon Stags"></div>
+      <div class="brand-name">Hillingdon <span class="accent">Stags</span></div>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#fixtures">Fixtures</a></li>
+        <li><a href="#table">Table</a></li>
+        <li><a href="#squad">Squad</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reports">Reports</a></li>
+        <li><a href="#contact" class="nav-cta">Join the Stags</a></li>
+      </ul>
+    </nav>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="hero-inner">
+    <span class="hero-tag">Middlesex County FL · Division Four North</span>
+    <h1>Antlers Up.<br><span class="gold">Stags Forever.</span></h1>
+    <p>Your home for Hillingdon Stags fixtures, results, match reports, and everything happening in and around the squad this season. Currently <strong id="hero-position">4th</strong> in Division Four North.</p>
+
+    <div class="next-fixture" id="next-fixture">
+      <div class="nf-header">
+        <span>⚽ Next Fixture</span>
+        <span id="nf-date">Loading…</span>
+      </div>
+      <div class="nf-body">
+        <div class="team">
+          <div class="team-crest" id="nf-left-crest">HS</div>
+          <div class="team-name" id="nf-left-name">Hillingdon Stags</div>
+        </div>
+        <div class="vs-block">
+          <div class="vs">VS</div>
+          <div class="kickoff" id="nf-venue">Home</div>
+        </div>
+        <div class="team">
+          <div class="team-crest away" id="nf-right-crest">??</div>
+          <div class="team-name" id="nf-right-name">Loading…</div>
+        </div>
+      </div>
+      <div class="nf-footer">
+        <span><strong>Competition:</strong> <span id="nf-comp">League</span></span>
+        <span><strong>Form:</strong> <span id="nf-form">— — — — —</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Results & upcoming ===== -->
+<section class="results-fixtures" id="fixtures">
+  <div class="container">
+    <div class="section-head">
+      <h2>Results & <span class="gold">Fixtures</span></h2>
+      <a href="https://www.mitoofootball.com/LeagueTab.cfm?TblName=Matches&DivisionID=220&LeagueCode=MDXS2025" target="_blank" rel="noopener">Full season on Mitoo →</a>
+    </div>
+    <div class="grid-2">
+      <div class="panel">
+        <div class="panel-head">Recent Results</div>
+        <div id="results-list">
+          <div class="loading">Loading results…</div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-head">Upcoming</div>
+        <div id="upcoming-list">
+          <div class="loading">Loading fixtures…</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== League table ===== -->
+<section class="league" id="table">
+  <div class="container">
+    <div class="section-head">
+      <h2>Division Four <span class="gold">North</span></h2>
+      <a href="https://www.mitoofootball.com/LeagueTab.cfm?TblName=Matches&DivisionID=220&LeagueCode=MDXS2025" target="_blank" rel="noopener">Full table on Mitoo →</a>
+    </div>
+    <table class="league-table">
+      <thead>
+        <tr>
+          <th class="pos">#</th>
+          <th style="text-align:left">Team</th>
+          <th>P</th>
+          <th>W</th>
+          <th>D</th>
+          <th>L</th>
+          <th>GD</th>
+          <th>PTS</th>
+        </tr>
+      </thead>
+      <tbody id="league-table-body">
+        <tr><td colspan="8" class="loading">Loading league table…</td></tr>
+      </tbody>
+    </table>
+    <div class="last-updated" id="last-updated"></div>
+  </div>
+</section>
+
+<!-- ===== Squad teaser ===== -->
+<section class="squad" id="squad">
+  <div class="container">
+    <div class="section-head">
+      <h2>Meet the <span class="gold">Squad</span></h2>
+      <a href="#">All players →</a>
+    </div>
+    <div class="squad-grid" id="squad-grid">
+      <div class="loading">Loading squad…</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Gallery teaser ===== -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="section-head">
+      <h2>In <span class="gold">Action</span></h2>
+      <a href="#">Full gallery →</a>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item featured"><div class="gallery-overlay">Stags 3–1 Hayes</div></div>
+      <div class="gallery-item"><div class="gallery-overlay">Pre-season</div></div>
+      <div class="gallery-item"><div class="gallery-overlay">Cup Run</div></div>
+      <div class="gallery-item"><div class="gallery-overlay">Training</div></div>
+      <div class="gallery-item"><div class="gallery-overlay">Awards Night</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-strip" id="contact">
+  <h3>Want to play for the Stags?</h3>
+  <p>We're always on the lookout for new players, sponsors, and supporters. Drop us a message and join the herd.</p>
+  <a href="mailto:stanleyt1738@gmail.com" class="btn">Get in touch</a>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer id="reports">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="brand">
+        <div class="badge"></div>
+        <div class="brand-name">Hillingdon <span class="accent" style="color:var(--gold)">Stags</span></div>
+      </div>
+      <p>Sunday league football, played proper. Founded by mates, run by mates, supported by everyone who matters.</p>
+      <div class="socials">
+        <a href="#" title="Instagram">IG</a>
+        <a href="#" title="TikTok">TT</a>
+        <a href="#" title="YouTube">YT</a>
+      </div>
+    </div>
+    <div>
+      <h4>The Club</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#squad">Squad</a></li>
+        <li><a href="#">Coaches</a></li>
+        <li><a href="#">History</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Match Day</h4>
+      <ul>
+        <li><a href="#fixtures">Fixtures</a></li>
+        <li><a href="#fixtures">Results</a></li>
+        <li><a href="#table">League Table</a></li>
+        <li><a href="#">Match Reports</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="#contact">Join the squad</a></li>
+        <li><a href="#contact">Sponsorship</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright">
+    © 2026 Hillingdon Stags FC · Built with antlers, sweat and 90 minutes of effort
+  </div>
+</footer>
+
+<script src="/js/site.js"></script>
+</body>
+</html>

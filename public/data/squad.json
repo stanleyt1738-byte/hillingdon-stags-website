@@ -1,0 +1,33 @@
+{
+  "_comment": "Add players here. Save the file, commit + push from GitHub Desktop, and the Squad section updates within seconds.",
+  "players": [
+    {
+      "number": 1,
+      "name": "J. Patel",
+      "position": "Goalkeeper",
+      "bio": "Safe hands and a louder voice. The wall between us and the goal.",
+      "photo": ""
+    },
+    {
+      "number": 4,
+      "name": "M. Brennan",
+      "position": "Centre Back · Captain",
+      "bio": "Reads the game like a book. Captains by example.",
+      "photo": ""
+    },
+    {
+      "number": 8,
+      "name": "R. Singh",
+      "position": "Midfielder",
+      "bio": "The engine room. Box to box for 90 minutes, every week.",
+      "photo": ""
+    },
+    {
+      "number": 9,
+      "name": "T. Okafor",
+      "position": "Striker",
+      "bio": "Predator in the box. Top scorer last season.",
+      "photo": ""
+    }
+  ]
+}

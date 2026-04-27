@@ -1,0 +1,31 @@
+# Netlify hosting configuration
+# Docs: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # The folder Netlify publishes as the live website
+  publish = "public"
+  # No build step needed — site is plain HTML/CSS/JS
+  command = ""
+
+# Cache the JSON data files briefly (5 min) so updates appear quickly
+[[headers]]
+  for = "/data/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
+
+# Cache CSS/JS for a day (will be busted by next deploy)
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+# Cache images for a week
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

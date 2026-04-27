@@ -1,0 +1,35 @@
+{
+  "_comment": "Placeholder fixtures. Update manually until the fixtures scraper is added in Phase 2. The 'next' fixture appears in the homepage hero card.",
+  "next": {
+    "date": "2026-05-03",
+    "kickoff": "10:30",
+    "home_away": "home",
+    "opponent": "Maida Villa",
+    "opponent_short": "MV",
+    "venue": "TBC",
+    "competition": "Middlesex County FL · Div 4 North"
+  },
+  "upcoming": [
+    {
+      "date": "2026-05-03",
+      "kickoff": "10:30",
+      "home_away": "home",
+      "opponent": "Maida Villa",
+      "competition": "League"
+    },
+    {
+      "date": "2026-05-10",
+      "kickoff": "11:00",
+      "home_away": "away",
+      "opponent": "Chiswick Celtic Reserves",
+      "competition": "League"
+    },
+    {
+      "date": "2026-05-17",
+      "kickoff": "10:30",
+      "home_away": "home",
+      "opponent": "Grove Park Rangers II",
+      "competition": "League"
+    }
+  ]
+}
