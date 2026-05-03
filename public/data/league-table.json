@@ -2,7 +2,7 @@
   "league": "Middlesex County Football League (Sundays)",
   "division": "Division Four North",
   "season": "2025-2026",
-  "fetched_at": "2026-05-03T07:31:36.844356+00:00",
+  "fetched_at": "2026-05-03T11:09:44.589637+00:00",
   "source_url": "https://www.mitoofootball.com/LeagueTab.cfm?TblName=Matches&DivisionID=220&LeagueCode=MDXS2025",
   "teams": [
     {
@@ -73,14 +73,14 @@
     {
       "position": 6,
       "team": "London Samurai Rovers (Sunday)",
-      "played": 20,
-      "won": 8,
+      "played": 21,
+      "won": 9,
       "drawn": 1,
       "lost": 11,
       "goals_for": 55,
       "goals_against": 46,
       "goal_difference": 9,
-      "points": 25,
+      "points": 28,
       "is_us": false
     },
     {
@@ -112,10 +112,10 @@
     {
       "position": 9,
       "team": "Chiswick Celtic Reserves",
-      "played": 18,
+      "played": 19,
       "won": 5,
       "drawn": 4,
-      "lost": 9,
+      "lost": 10,
       "goals_for": 34,
       "goals_against": 65,
       "goal_difference": -31,
