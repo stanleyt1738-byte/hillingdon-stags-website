@@ -2,7 +2,7 @@
   "league": "Middlesex County Football League (Sundays)",
   "division": "Division Four North",
   "season": "2025-2026",
-  "fetched_at": "2026-05-10T15:34:40.679149+00:00",
+  "fetched_at": "2026-05-10T19:47:10.100869+00:00",
   "source_url": "https://www.mitoofootball.com/LeagueTab.cfm?TblName=Matches&DivisionID=220&LeagueCode=MDXS2025",
   "teams": [
     {
@@ -38,9 +38,9 @@
       "won": 15,
       "drawn": 4,
       "lost": 2,
-      "goals_for": 77,
+      "goals_for": 78,
       "goals_against": 35,
-      "goal_difference": 42,
+      "goal_difference": 43,
       "points": 49,
       "is_us": false
     },
@@ -52,8 +52,8 @@
       "drawn": 6,
       "lost": 6,
       "goals_for": 50,
-      "goals_against": 46,
-      "goal_difference": 4,
+      "goals_against": 47,
+      "goal_difference": 3,
       "points": 36,
       "is_us": true
     },
